@@ -4,10 +4,21 @@
 <footer class="main-footer">
     <div class="container">
         <div class="row g-4"> <!-- g-4 adds consistent spacing between grid columns -->
-            
+
             <!-- Column 1: Brand & About -->
             <div class="col-lg-4 col-md-6">
-                <h5><i class="fas fa-database me-2"></i>ShopDB</h5>
+                <!-- 1. Brand / Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="index.php">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
+                        alt="شعار متجر تاجر"
+                        width="35"
+                        height="35"
+                        class="d-inline-block align-text-top me-2">
+
+                    <!-- Store Name  -->
+                    <span class="fw-bold">تاجر</span>
+                </a>
+
                 <p class="text-muted small">مشروع تعليمي متكامل لتطبيق مهارات MySQL وPHP وBootstrap في بيئة واقعية.</p>
                 <!-- Social Media Links -->
                 <div class="social-icons mt-3">
@@ -17,7 +28,6 @@
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
-            
             <!-- Column 2: Quick Navigation Links -->
             <div class="col-lg-2 col-md-3 col-6">
                 <h6>روابط سريعة</h6>
@@ -28,7 +38,7 @@
                     <li><a href="6_search_customer.php"><i class="fas fa-search me-2"></i>البحث</a></li>
                 </ul>
             </div>
-            
+
             <!-- Column 3: Reports & Features Links -->
             <div class="col-lg-2 col-md-3 col-6">
                 <h6>التقارير</h6>
@@ -39,7 +49,7 @@
                     <li><a href="10_product_details.php"><i class="fas fa-info-circle me-2"></i>التفاصيل</a></li>
                 </ul>
             </div>
-            
+
             <!-- Column 4: Contact Information -->
             <div class="col-lg-4 col-md-6">
                 <h6>تواصل معنا</h6>
@@ -50,20 +60,22 @@
                 </ul>
             </div>
         </div>
-        
+
         <!-- 2. Footer Bottom: Copyright & Tech Stack -->
         <div class="footer-bottom mt-4 pt-3 border-top">
             <small class="text-muted d-block text-center">
                 <!-- Dynamically update the year using PHP so it never gets outdated -->
-                © <?= date('Y') ?> Shop. جميع الحقوق محفوظة.
-                
+                © <?= date('Y') ?> جميع الحقوق محفوظة لتاجر.
+
                 <!-- Responsive line break for mobile devices -->
                 <br class="d-md-none">
-                
-                صُنع بـ <i class="fas fa-heart text-danger"></i> باستخدام 
+                <p class="text-center mb-0 text-white-50" style="font-size: 0.85rem;">
+                    Noha Elsayed &copy; 2026
+                </p>
+                <!-- صُنع بـ <i class="fas fa-heart text-danger"></i> باستخدام
                 <i class="fab fa-php text-warning"></i> PHP،
                 <i class="fas fa-database text-info"></i> MySQL،
-                <i class="fab fa-bootstrap text-primary"></i> Bootstrap
+                <i class="fab fa-bootstrap text-primary"></i> Bootstrap -->
             </small>
         </div>
     </div>
@@ -74,4 +86,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

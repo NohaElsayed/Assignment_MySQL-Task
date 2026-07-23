@@ -1,7 +1,7 @@
 <?php
 // 1. Setup & Initialization
 require_once 'db.php';          // Database connection
-require_once 'validation.php';  // Validation helper functions
+require_once 'validation/validation.php';  // Validation helper functions
 $error = '';
 $success = '';
 

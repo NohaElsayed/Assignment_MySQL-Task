@@ -2,16 +2,21 @@
     <div class="container">
 
         <!-- 1. Brand / Logo -->
-        <a class="navbar-brand" href="index.php">
-            <i class="fas fa-database"></i>
-            <span>Shop</span>
+        <a class="navbar-brand d-flex align-items-center" href="index.php">
+            <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
+                alt="شعار متجر تاجر"
+                width="35"
+                height="35"
+                class="d-inline-block align-text-top me-2">
+
+            <!-- Store Name  -->
+            <span class="fw-bold">تاجر</span>
         </a>
 
         <!-- 2. Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
             <i class="fas fa-bars text-white"></i>
         </button>
-
         <!-- 3. Collapsible Menu Content -->
         <div class="collapse navbar-collapse" id="mainNav">
 

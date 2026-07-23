@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$pageTitle = 'الرئيسية | ShopDB';
+$pageTitle = 'الرئيسية | تاجر';
 require_once 'db.php'; // Include database connection
 
 // 2. Dashboard Statistics Queries
@@ -43,8 +43,8 @@ $totalRevenue   = $pdo->query("SELECT SUM(o.quantity * p.price) FROM orders o JO
     <!-- 5. Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>مرحباً بكم في ShopDB</h1>
-            <p>نظام إدارة متكامل باستخدام PHP + MySQL + Bootstrap 5</p>
+            <h1>مرحباً بكم في تاجر</h1>
+            <p>نظام إدارة متكامل</p>
             <a href="#stats" class="btn btn-outline-light btn-hero">
                 <i class="fas fa-rocket me-2"></i> استكشف النظام
             </a>

@@ -18,7 +18,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Dynamic Page Title: Uses $pageTitle if set, otherwise defaults to 'Shop' -->
-    <title><?= $pageTitle ?? 'Shop' ?></title>
+    <title><?= $pageTitle ?? 'تاجر' ?></title>
     
     <!-- 3. External Stylesheets (CDNs) -->
     <!-- Bootstrap 5 CSS Framework -->
